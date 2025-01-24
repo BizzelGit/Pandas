@@ -1,0 +1,12 @@
+def myfunction(x):
+    if x > 40:
+        return 40 + (x - 40) * 1.50
+    else:
+        return x
+
+myfunction = lambda x: 40 + (x - 40) * 1.50 if x > 40 else x
+
+
+lambda x: [OUTCOME IF TRUE] if [CONDITIONAL] else [OUTCOME IF FALSE]
+
+____________________________
